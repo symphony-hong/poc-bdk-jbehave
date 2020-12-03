@@ -1,0 +1,18 @@
+host: devx1.symphony.com
+
+bot:
+  username: fxbot-hong
+  privateKeyPath: /Users/hong.le/.symphony/privatekey.pem
+
+app:
+  appId: testapp-hongle
+  privateKey:
+    path: /Users/hong.le/.symphony/privatekey.pem
+
+datafeed:
+  version: v1
+retry:
+  maxAttempts: 6
+  initialIntervalMillis: 2000
+  multiplier: 1.5
+  maxIntervalMillis: 10000
